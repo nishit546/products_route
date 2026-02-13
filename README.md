@@ -27,28 +27,31 @@ A simple REST API built with Node.js and Express.js to manage products.
 Clone the repo:
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/nishit546/products_route.git
+
 ```
 
 Install dependencies:
 
 ```bash
-npm install
+npm init
 ```
 
 ---
 
 ## ▶️ Run Server
 
-### Production
+### Build
 ```bash
-npm start
+node index.js
 ```
-
+### Download nodemon for autoreload for that project only (not globally)
+```bash
+npm i nodemon 
+```
 ### Development (auto reload)
 ```bash
-npm run dev
+ nodemon index.js
 ```
 
 Server runs at:
